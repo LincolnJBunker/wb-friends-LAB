@@ -40,7 +40,8 @@ const friendInfo = friends.map((friend) => (
   <div>
     <img style={{height: "500px", width: "500px", marginLeft: "auto", marginRight: "auto", display: "block"}} 
     className="img"key={friend.picture} src={friend.picture} alt="friendPicture" />
-    <span style={{fontSize: "50px", fontFamily: "sans-serif", fontStyle: "bold"}} key={friend.name}>{friend.name}</span>
+    <span style={{fontSize: "50px", fontFamily: "sans-serif", fontStyle: "bold"}} 
+    key={friend.name}>{friend.name}</span>
   </div>
 ))
 let friendResult = friendInfo
